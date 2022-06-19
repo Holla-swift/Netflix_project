@@ -7,15 +7,6 @@ from dateutil import parser
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# NLP
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-nltk.download('stopwords')
-nltk.download('punkt')
-from wordcloud import WordCloud
-
-
 ### File Path and Data Extraction
 directory = os.getcwd()
 file_path = directory + '/netflix_titles.csv'
